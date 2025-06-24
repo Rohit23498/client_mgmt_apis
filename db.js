@@ -2,10 +2,10 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const pool = mysql.createPool({
-  host: "localhost",
+  host: "mysql.railway.internal",
   user: "root",
-  password: "Gup$hup.i0@25",
-  database: "whatsappbot",
+  password: "kjqPQNoJjvxkqeamNBhxTzmDHQBGOUsy",
+  database: "railway",
   port: process.env.DB_PORT || 3306,
   waitForConnections: true,
   connectionLimit: 10,
