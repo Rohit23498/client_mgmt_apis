@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const pool = mysql.createPool({
-  host: "sql12.freesqldatabase.com/",
+  host: "sql12.freesqldatabase.com",
   user: "sql12786730",
   password: "qJ7hQeud6f",
   database: "sql12786730",
