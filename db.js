@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 require('dotenv').config();
 
 const pool = mysql.createPool({
-  host: "mysql://root:kjqPQNoJjvxkqeamNBhxTzmDHQBGOUsy@ballast.proxy.rlwy.net:39336/railway",
+  host: "ballast.proxy.rlwy.net",
   user: "root",
   password: "kjqPQNoJjvxkqeamNBhxTzmDHQBGOUsy",
   database: "railway",
